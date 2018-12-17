@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hot Restaurant - View Reservations</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h1><span class="fa fa-fire"></span> Hot Restaurant Express</h1>
+            <h3>Make a reservation today!</h3>
+            <hr>
+            <a href="/">
+                <button class="btn btn-danger btn-lg">
+                  <span class="fa fa-home"></span> Home</button>
+              </a>
+            <a href="/make"><button class="btn btn-danger btn-lg"><span class="fa fa-plus"></span> Make Reservation</button></a>
+        </div>
+        <div class="row">
+
+            <div class="col-12">
+
+                <div class="card">
+                    <div class="card-header">
+                        <strong>Reservation Database</strong></h3>
+                    </div>
+                    <div class="card-body">
+                        <ul id="reservation-section" class="list-group">
+
+                        </ul>
+                    </div>
+                    <div class="card-header" id="waitlist">No Waitlisted Reservations</div>
+                    <div class="card-body">
+                        <ul id="waitlist-section" class="list-group">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./viewjs"></script>
+
+</body>
+
+</html>
