@@ -18,31 +18,31 @@ app.use(express.json());
 // =============================================================
 var reservations = [
     {
-        id: "ryanmoore",
-        name: "Ryan Moore",
-        email: "rhcmoore@gmail.com",
-        phone: "(703)-111-1111",
+        id: "ryan",
+        name: "Ryan",
+        email: "ryan@gmail.com",
+        phone: "(703)-867-5309",
         party: 1
     },
     {
         id: "isabel",
         name: "Isabel",
         email: "isabel@gmail.com",
-        phone: "(943)-111-1111",
+        phone: "(943)-867-5309",
         party: 15
     },
     {
         id: "paul",
         name: "Paul",
         email: "paul@gmail.com",
-        phone: "(442)-111-1111",
+        phone: "(442)-867-5309",
         party: 12
     },
     {
         id: "jackson",
         name: "Jackson",
         email: "jackson@gmail.com",
-        phone: "(565)-111-1111",
+        phone: "(565)-867-5309",
         party: 0
     }
 ];
@@ -52,7 +52,7 @@ var waitlist = [
         id: "charles",
         name: "Charles",
         email: "charles@gmail.com",
-        phone: "(434)-111-1111",
+        phone: "(434)-867-5309",
         party: 0
     }
 ];
